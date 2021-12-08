@@ -61,5 +61,6 @@ pac-man::after {
 }
 
 h2 {
-  color: white
+  color: white;
+  text-align: center;
 }
