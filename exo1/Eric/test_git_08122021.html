@@ -15,17 +15,6 @@
     <script>
         // mix des ex1 de echauffements et fonctions
 
-        var a;
-        a = 0;
-        while (a < 10) {
-            a++;
-            console.log(a);
-            if (!testnum(a)) {
-                console.log("le nombre est différent de 10")
-            } else {
-                console.log("le nombre est égal 10")
-            }
-
         function testNum(a) {
             var a;
             if (a === 10) {
@@ -36,7 +25,19 @@
             return result;
         }
 
-console.log(testNum(10));
+    console.log(testNum(10));
+
+    var a;
+    a = 0;
+
+        while (a < 10) {
+            a++;
+            console.log(a);
+            if (!testnum(a)) {
+                console.log("le nombre est différent de 10");
+            } else {
+                console.log("le nombre est égal 10");
+            }
 
     </script>
 
