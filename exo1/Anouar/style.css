@@ -59,3 +59,7 @@ pac-man::before {
 pac-man::after {
   animation: pacman2 0.7s linear 0s infinite alternate;
 }
+
+h2 {
+  color: white
+}
