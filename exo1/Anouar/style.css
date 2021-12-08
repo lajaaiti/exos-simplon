@@ -28,9 +28,13 @@ body {
 }
 .top {
   transform: translateY(-100px) rotateX(90deg);
+  background-color: red;
+  opacity: 0.3;
 }
 .bottom {
   transform: translateY(100px) rotateX(90deg);
+  background-color: yellow;
+  opacity: 0.3;
 }
 .back {
   transform: translateZ(-100px);
